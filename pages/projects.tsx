@@ -44,9 +44,10 @@ const PROJECTS: Project[] = [
     desc: (
       <ul>
         <li className="flex flex-row gap-2 items-center my-1">
-          <GoPrimitiveSquare className="text-xs text-secondary" /> Implemented
+          <GoPrimitiveSquare className="text-xs text-secondary" />{" "}
+          {`Implemented
           the complexity of player interactions and game dynamics using
-          JavaScript's classes.
+          JavaScript's classes.`}
         </li>
         <li className="flex flex-row gap-2 items-center my-1">
           <GoPrimitiveSquare className="text-xs text-secondary" /> Utilized
