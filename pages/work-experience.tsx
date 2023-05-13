@@ -54,7 +54,25 @@ const EXPERIENCE: Experience[] = [
     id: 2,
     title: "Front End Developer @Henesys Studio",
     date: "October 2021 - January 2022",
-    desc: "During this experience I have crafted responsive, interactive, and cross-platform interfaces to deliver excellent user experiences across various devices and browsers. By playing an active role in UX/UI decision-making, I contributed to the creation of visually compelling and user-friendly interfaces that not only met but exceeded client expectations. Leveraging my expertise in Bootstrap and jQuery, I efficiently transformed design mockups into high-quality, production-ready code. This process involved closely collaborating with designers to ensure that the implemented interfaces closely matched the intended designs while maintaining responsiveness and ensuring seamless functionality. Additionally, I focused on optimizing the overall performance of the interfaces, ensuring fast load times and smooth user interactions, resulting in an enhanced user experience that ultimately contributed to the success of the projects.",
+    desc: (
+      <p>
+        During this experience I have crafted responsive, interactive, and
+        cross-platform interfaces to deliver excellent user experiences across
+        various devices and browsers. By playing an active role in UX/UI
+        decision-making, I contributed to the creation of visually compelling
+        and user-friendly interfaces that not only met but exceeded client
+        expectations. Leveraging my expertise in Bootstrap and jQuery, I
+        efficiently transformed design mockups into high-quality,
+        production-ready code. <br />
+        <br /> This process involved closely collaborating with designers to
+        ensure that the implemented interfaces closely matched the intended
+        designs while maintaining responsiveness and ensuring seamless
+        functionality. Additionally, I focused on optimizing the overall
+        performance of the interfaces, ensuring fast load times and smooth user
+        interactions, resulting in an enhanced user experience that ultimately
+        contributed to the success of the projects.
+      </p>
+    ),
     tech_stack: ["JavaScript", "HTML", "Bootstrap"],
   },
   {
